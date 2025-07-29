@@ -1,0 +1,170 @@
+<!-- Updated index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sriram Mahal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">Sriram Mahal</a>
+        <button class="nav-toggle" id="navToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav id="navMenu" class="nav-menu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Slider -->
+      <section class="hero-slider">
+        <div
+          class="slide active"
+          style="background-image: url('images/hero1.jpg')"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url('images/hero2.jpg')"
+        ></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>❧ Make Your Wedding Unforgettable ❧</h1>
+          <p>Elegant spaces. Personalized service.</p>
+          <div class="hero-buttons">
+            <a href="contact.html" class="btn">Book a Tour</a>
+            <a href="gallery.html" class="btn btn-secondary">View Gallery</a>
+          </div>
+        </div>
+        <button class="prev" id="prevBtn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="next" id="nextBtn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </section>
+
+      <!-- Preview Sections -->
+      <section class="section container">
+        <h2>Welcome to Sriram Mahal</h2>
+        <p>
+          We provide the perfect venue for your memorable day. Blending
+          tradition and luxury with world-class service.
+        </p>
+        <a href="about.html" class="btn" style="margin-top: 1rem"
+          >Learn More About Us</a
+        >
+      </section>
+
+      <section class="section bg-light container">
+        <h2>Explore Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <i class="fas fa-utensils"></i>
+            <h3>Catering</h3>
+            <p>Custom multi-cuisine menus.</p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-paint-brush"></i>
+            <h3>Decor & Lighting</h3>
+            <p>Elegant and customizable decor themes.</p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-music"></i>
+            <h3>Entertainment</h3>
+            <p>Live music, DJs, and performances.</p>
+          </div>
+        </div>
+        <a
+          href="services.html"
+          class="btn btn-secondary"
+          style="margin-top: 1rem"
+          >See All Services</a
+        >
+      </section>
+
+      <section class="section container">
+        <h2>Gallery Highlights</h2>
+        <div class="gallery-grid">
+          <img src="images/stage.jpeg" alt="Stage" />
+          <img src="images/dining.jpg" alt="Dining" />
+          <img src="images/rooms.jpg" alt="Rooms" />
+          <img src="images/decorations.jpeg" alt="Decor" />
+        </div>
+        <a
+          href="gallery.html"
+          class="btn btn-secondary"
+          style="margin-top: 1rem"
+          >View Full Gallery</a
+        >
+      </section>
+
+      <section class="section bg-light container">
+        <h2>Testimonials</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p>"Our wedding was magical!"</p>
+            <h4>- Sam & Naga</h4>
+          </div>
+          <div class="testimonial-card">
+            <p>"Beautiful venue and service."</p>
+            <h4>- Anjali & Vikram</h4>
+          </div>
+          <div class="testimonial-card">
+            <p>"Highly recommended!"</p>
+            <h4>- Neha & Aman</h4>
+          </div>
+        </div>
+        <a
+          href="testimonials.html"
+          class="btn btn-secondary"
+          style="margin-top: 1rem"
+          >Read More Testimonials</a
+        >
+      </section>
+
+      <section class="section container">
+        <h2>Get in Touch</h2>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> Aalanugalam, Vembakottai Road,
+          Virudhunagar
+        </p>
+        <p><i class="fas fa-phone"></i> +91 9345601646</p>
+        <p><i class="fas fa-envelope"></i> srirammahal@gmail.com</p>
+        <a href="contact.html" class="btn" style="margin-top: 1rem"
+          >Contact Us</a
+        >
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container text-center">
+        <p>&copy; Sriram Mahal. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
