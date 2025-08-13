@@ -7,7 +7,6 @@ A responsive website designed for **Sri Ram Mahal**, a wedding hall in Tamil Nad
 [Click here to view the live website](http://srirammahal.in.s3-website.ap-south-1.amazonaws.com)
 
 
-
 ## 📁 Features
 
 - Fully responsive layout
