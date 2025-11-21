@@ -2,9 +2,7 @@
 
 A responsive website designed for **Sri Ram Mahal**, a wedding hall in Tamil Nadu. Built using **HTML**, **CSS**, and **JavaScript**, and hosted on **AWS S3 Static Website Hosting**.
 
-## 🌐 Live Demo
 
-[Click here to view the live website](http://srirammahal.in.s3-website.ap-south-1.amazonaws.com)
 
 
 ## 📁 Features
